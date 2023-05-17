@@ -1,0 +1,48 @@
+/* NewTweet.css */
+.new-tweet {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.username-input {
+  height: 40px;
+  padding: 8px;
+  margin-bottom: 10px;
+  font-size: 16px;
+  border: 1px solid #ccd6dd;
+  border-radius: 8px;
+}
+
+.tweet-input {
+  height: 80px;
+  resize: none;
+  padding: 8px;
+  font-size: 16px;
+  border: 1px solid #ccd6dd;
+  border-radius: 8px;
+}
+
+.tweet-button {
+  padding: 8px 16px;
+  margin-top: 10px;
+  background-color: #1da1f2;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.tweet-button:hover {
+  background-color: #1989c8;
+}
+
+.tweet-button:active {
+  background-color: #1372a8;
+}
+
+.tweet-button:focus {
+  outline: none;
+  box-shadow: 0 0 0 2px rgba(29, 161, 242, 0.5);
+}
